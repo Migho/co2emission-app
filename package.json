@@ -1,0 +1,22 @@
+{
+  "name": "co2emissions-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "download-file": "^0.1.5",
+    "express": "^4.16.4",
+    "node-stream-zip": "^1.8.0",
+    "papaparse": "^4.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
